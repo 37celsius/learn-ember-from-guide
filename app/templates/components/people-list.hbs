@@ -1,0 +1,6 @@
+<h1>{{@title}}</h1>
+<ul>
+  {{#each @people as |person|}}
+    <button {{action "showPerson" person}}>{{person}}</button>
+  {{/each}}
+</ul>
